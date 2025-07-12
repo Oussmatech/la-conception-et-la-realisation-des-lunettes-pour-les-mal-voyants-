@@ -1,7 +1,12 @@
 # la-conception-et-la-realisation-des-lunettes-pour-les-mal-voyants-
 
 Description
-Ce projet implémente un système de lunettes intelligentes destiné aux personnes malvoyantes. À l'aide de deux caméras ESP32-CAM montées sur une monture, d'un Raspberry Pi 4 et un buzzer pour le traitement, 
+Ce projet implémente un système de lunettes intelligentes destiné aux personnes malvoyantes. À l'aide de deux caméras ESP32-CAM montées sur une monture, d'un Raspberry Pi 4 et un buzzer pour le traitement
+Système portable autonome et léger à intégrer dans des lunettes
+Détection par yolo
+Estimation de la distance grâce à la vision stéréoscopique.
+Alerte sonore adaptée à la proximité de l’obstacle.
+fonctionnement au demmarage du raspberry
 
 le dispositif :
 Acquiert des images stéréo en temps réel
