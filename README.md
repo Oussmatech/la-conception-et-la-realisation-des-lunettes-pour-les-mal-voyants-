@@ -31,6 +31,8 @@ Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes
 ├── 📂 esp_codes
 │   └── 📂 CameraWebServer             # Vérification du flux caméra et capture d'images pour calibration
 │       └── Esp32cam_client.ino        # Envoi du flux vidéo via socket TCP
+├── 📂 Conception 3D
+├── 📂 Tests et prototypage
 └── 📜 README.md
 ```
 
