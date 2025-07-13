@@ -19,7 +19,7 @@ Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes
 - 2 × Alimentation 5V (esp32cam I(A)>500mA , raspberry I(A) >2A) 
 
 📁 la-conception-et-la-realisation-des-lunettes-pour-les-mal-voyantsq
-- ├── 📂 detection    
+├── 📂 detection    
       - ├── stereo_detection.py
       - ├── stereo_image_utils_yolo.py        # procedure de la vision stereoscopique 
       - ├── yolov8n.pt       
