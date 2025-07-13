@@ -19,6 +19,7 @@ Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes
 - 2 × Alimentation 5V (esp32cam I(A)>500mA , raspberry I(A) >2A) 
 
 ```bash
+## Structure du projet :
 📁 la-conception-et-la-réalisation-des-lunettes-pour-les-malvoyants
 ├── 📂 detection
 │   ├── stereo_detection.py
@@ -31,7 +32,7 @@ Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes
 │   └── 📂 CameraWebServer             # Vérification du flux caméra et capture d'images pour calibration
 │       └── Esp32cam_client.ino        # Envoi du flux vidéo via socket TCP
 └── 📜 README.md
-
+```
 
 ## Team Members
 - **Oussama Bouftini**
