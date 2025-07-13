@@ -18,17 +18,17 @@ Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes
 - Câbles (GPIO, alimentation, caméra)
 - 2 × Alimentation 5V (esp32cam I(A)>500mA , raspberry I(A) >2A) 
 
-📁 la-conception-et-la-realisation-des-lunettes-pour-les-mal-voyantsq
-├── 📂 detection    
-      - ├── stereo_detection.py
-      - ├── stereo_image_utils_yolo.py        # procedure de la vision stereoscopique 
-      - ├── yolov8n.pt       
-- ├── 📂 calibration         # calcule des parametres de la relation de triangulation
-      - ├── stereo_calibration.ipynb
-      - ├── images 
- - ├── 📂 esp_codes  
-     -  ├── 📂 CameraWebServer # verificaion de flux camera et prend des images pour la calibration
-      - ├── Esp32cam_client.ino # envoyer flux video via socket TCP 
+📁 la-conception-et-la-réalisation-des-lunettes-pour-les-malvoyants
+├── 📂 detection
+│   ├── stereo_detection.py
+│   ├── stereo_image_utils_yolo.py    # Procédure de vision stéréoscopique
+│   └── yolov8n.pt
+├── 📂 calibration                     # Calcul des paramètres de triangulation
+│   ├── stereo_calibration.ipynb
+│   └── images/
+├── 📂 esp_codes
+│   └── 📂 CameraWebServer             # Vérification du flux caméra et capture d'images pour calibration
+│       └── Esp32cam_client.ino        # Envoi du flux vidéo via socket TCP
 └── 📜 README.md
 
 ## Team Members
