@@ -31,12 +31,12 @@ Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes
       ├── Esp32cam_client.ino # envoyer flux video via socket TCP 
 └── 📜 README.md
 
-## 👥 Team Members
+## Team Members
 - **Oussama Bouftini**
 - **Ayman EL Hasnaoui**
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 
-## 📞 Contact
+## Contact
 oussamabouftini@gmail.com
