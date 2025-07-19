@@ -2,7 +2,7 @@
 
 Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes aveugles, Ces lunettes associent l’intelligence artificielle pour la détection de l’obstacle et la méthode de vision stéréoscopique pour calculer la distance à partir du flux vidéo de deux ESP32-CAM, puis envoyer  au Raspberry via WIFI qui assurer le traitement et ensuite alerter la personne concernée par les obstacles autour de lui et guider dans ses mouvements et le prévenir, via buzzer, Ce qui facilitera son déplacement aussi bien que son quotidien.
 
-[test](docs/test.png)
+![test](docs/test.png)
 
 ## Features
 - Capture deux flux video via ESP32-CAM
