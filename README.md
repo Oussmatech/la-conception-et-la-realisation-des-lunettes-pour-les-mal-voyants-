@@ -2,7 +2,6 @@
 
 Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes aveugles, Ces lunettes associent l’intelligence artificielle pour la détection de l’obstacle et la méthode de vision stéréoscopique pour calculer la distance à partir du flux vidéo de deux ESP32-CAM, puis envoyer  au Raspberry via WIFI qui assurer le traitement et ensuite alerter la personne concernée par les obstacles autour de lui et guider dans ses mouvements et le prévenir, via buzzer, Ce qui facilitera son déplacement aussi bien que son quotidien.
 
-![test](docs/img.png)
 
 ## Features
 - Capture deux flux video via ESP32-CAM
@@ -20,8 +19,8 @@ Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes
 - Câbles (GPIO, alimentation, caméra)
 - 2 × Alimentation 5V (esp32cam I(A)>500mA , raspberry I(A) >2A) 
 
-```bash
 ## Structure du projet :
+```bash
 📁 la-conception-et-la-réalisation-des-lunettes-pour-les-malvoyants
 ├── 📂 detection
 │   ├── stereo_detection.py
@@ -29,21 +28,22 @@ Ce projet vise a développée Des lunettes intelligentes dédiées aux personnes
 │   └── yolov8n.pt
 ├── 📂 calibration                     # Calcul des paramètres de triangulation
 │   ├── stereo_calibration.ipynb
-│   └── images/
-├── 📂 esp_codes
-│   └── 📂 CameraWebServer             # Vérification du flux caméra et capture d'images pour calibration
-│       └── Esp32cam_client.ino        # Envoi du flux vidéo via socket TCP
+│   └──  images/
+├── 📂 docs
+│   └──img.png
 ├── 📂 Conception 3D
-├── 📂 Tests et prototypage
+│   └──lunettes 3D.stl
+├── 📂 esp_codes
+│   ├──  CameraWebServer/           # Vérification du flux caméra et capture d'images pour calibration
+│   └── Esp32cam_client.ino        # Envoi du flux vidéo via socket TCP
 └── 📜 README.md
 ```
+## Test
+![test](docs/img.png)
 
 ## Team Members
 - **Oussama Bouftini**
 - **Ayman EL Hasnaoui**
-
-## Future Enhancements
-
 
 ## Contact
 oussamabouftini@gmail.com
